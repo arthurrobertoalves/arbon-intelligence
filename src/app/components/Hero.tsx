@@ -3,8 +3,6 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-1 pb-20 overflow-hidden">
-      
-  
       {/* Headline */}
       <h1 className="relative z-10 font-display text-[clamp(48px,8vw,104px)] leading-[0.95] tracking-tight text-arbon-dark max-w-5xl mb-6 animate-fade-up">
         Decisões sob pressão.
@@ -38,9 +36,8 @@ export default function Hero() {
 
       {/* Social proof */}
       <p className="relative z-10 text-arbon-gray text-sm mt-10 animate-fade-up">
-        Confiado por{" "}
-        <strong className="text-arbon-dark">150+ empresas</strong> — iFood,
-        Nubank, VTEX, QuintoAndar e mais
+        Escolhido por líderes que priorizam performance, clareza e decisões sob
+        pressão
       </p>
     </section>
   );
